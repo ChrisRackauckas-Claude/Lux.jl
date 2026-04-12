@@ -334,8 +334,8 @@ end
 ```
 
 ```
-Julia Version 1.12.5
-Commit 5fe89b8ddc1 (2026-02-09 16:05 UTC)
+Julia Version 1.12.6
+Commit 15346901f00 (2026-04-09 19:20 UTC)
 Build Info:
   Official https://julialang.org release
 Platform Info:

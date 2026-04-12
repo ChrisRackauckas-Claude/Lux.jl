@@ -40,14 +40,14 @@ end
 
 ```ansi
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-I0000 00:00:1775535161.648698   11340 profiler_session.cc:117] Profiler session initializing.
-I0000 00:00:1775535161.648724   11340 profiler_session.cc:132] Profiler session started.
-I0000 00:00:1775535192.565541   11340 profiler_session.cc:81] Profiler session collecting data.
-I0000 00:00:1775535192.623116   11340 save_profile.cc:150] Collecting XSpace to repository: /tmp/lux_training_trace/plugins/profile/2026_04_07_04_13_12/runnervm727z3.xplane.pb
-I0000 00:00:1775535192.676503   11340 save_profile.cc:123] Creating directory: /tmp/lux_training_trace/plugins/profile/2026_04_07_04_13_12
+I0000 00:00:1775958683.971124    8889 profiler_session.cc:119] Profiler session initializing.
+I0000 00:00:1775958683.971160    8889 profiler_session.cc:134] Profiler session started.
+I0000 00:00:1775958716.229785    8889 profiler_session.cc:82] Profiler session collecting data.
+I0000 00:00:1775958716.299822    8889 save_profile.cc:150] Collecting XSpace to repository: /tmp/lux_training_trace/plugins/profile/2026_04_12_01_51_56/runnervm35a4x.xplane.pb
+I0000 00:00:1775958716.358200    8889 save_profile.cc:123] Creating directory: /tmp/lux_training_trace/plugins/profile/2026_04_12_01_51_56
 
-I0000 00:00:1775535192.722427   11340 save_profile.cc:129] Dumped gzipped tool data for trace.json.gz to /tmp/lux_training_trace/plugins/profile/2026_04_07_04_13_12/runnervm727z3.trace.json.gz
-I0000 00:00:1775535192.740885   11340 profiler_session.cc:150] Profiler session tear down.
+I0000 00:00:1775958716.404206    8889 save_profile.cc:129] Dumped gzipped tool data for trace.json.gz to /tmp/lux_training_trace/plugins/profile/2026_04_12_01_51_56/runnervm35a4x.trace.json.gz
+I0000 00:00:1775958716.433353    8889 profiler_session.cc:152] Profiler session tear down.
 ```
 
 Once the run is completed, you can use [`xprof`](https://github.com/openxla/xprof) to analyze the traces. An example of the output is shown below:

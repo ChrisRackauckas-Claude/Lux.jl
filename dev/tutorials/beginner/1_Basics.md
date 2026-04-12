@@ -19,7 +19,7 @@ using Lux, Random
 
 ```
 Precompiling packages...
-    393.1 ms  ✓ StructUtilsStaticArraysCoreExt (serial)
+    433.5 ms  ✓ StructUtilsStaticArraysCoreExt (serial)
   1 dependency successfully precompiled in 0 seconds
 
 ```
@@ -384,7 +384,7 @@ using ComponentArrays, ForwardDiff, Zygote
 
 ```
 Precompiling packages...
-    403.8 ms  ✓ StructUtilsTablesExt (serial)
+    442.2 ms  ✓ StructUtilsTablesExt (serial)
   1 dependency successfully precompiled in 0 seconds
 
 ```
@@ -610,15 +610,15 @@ end
 ```
 
 ```
-Julia Version 1.12.5
-Commit 5fe89b8ddc1 (2026-02-09 16:05 UTC)
+Julia Version 1.12.6
+Commit 15346901f00 (2026-04-09 19:20 UTC)
 Build Info:
   Official https://julialang.org release
 Platform Info:
   OS: Linux (x86_64-linux-gnu)
-  CPU: 4 × AMD EPYC 7763 64-Core Processor
+  CPU: 4 × AMD EPYC 9V74 80-Core Processor
   WORD_SIZE: 64
-  LLVM: libLLVM-18.1.7 (ORCJIT, znver3)
+  LLVM: libLLVM-18.1.7 (ORCJIT, znver4)
   GC: Built with stock GC
 Threads: 4 default, 1 interactive, 4 GC (on 4 virtual cores)
 Environment:
